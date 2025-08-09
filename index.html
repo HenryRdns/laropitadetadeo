@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>La ropita de Tadeo – Segunda mano, primera calidad</title>
+  <meta name="description" content="Ropa infantil de segunda mano importada, seleccionada con amor. Bebés, niños y niñas. Segunda mano, primera calidad." />
+  <meta property="og:title" content="La ropita de Tadeo" />
+  <meta property="og:description" content="Pequeños tesoros para grandes aventuras." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#EBDCC4" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --beige:#EBDCC4;
+      --brown:#3E2D1B;
+      --mint:#CFE8DC;
+      --peach:#F6C9B5;
+      --gray:#6B5E53;
+      --paper:#FCF8F2;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--beige);color:var(--brown);font-family:Outfit,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,'Noto Sans',sans-serif;}
+    a{color:inherit;text-decoration:none}
+    .container{max-width:1100px;margin:0 auto;padding:0 20px}
+    header{position:sticky;top:0;background:rgba(235,220,196,.9);backdrop-filter:saturate(140%) blur(6px); z-index:20;border-bottom:1px solid rgba(62,45,27,.08)}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:44px;height:44px;border-radius:12px;background:var(--paper);display:grid;place-items:center;border:1.5px solid rgba(62,45,27,.12);overflow:hidden}
+    .logo img{width:90%;height:90%;object-fit:contain;border-radius:10px}
+    .nav a.btn{padding:10px 14px;border:1.5px solid var(--brown);border-radius:999px;font-weight:600}
+    .hero{display:grid;place-items:center;text-align:center;padding:72px 0 56px;background:linear-gradient(180deg,rgba(255,255,255,.6),transparent)}
+    .hero h1{font-family:'Playfair Display',serif;font-size:42px;line-height:1.05;margin:6px 0 10px}
+    .hero p{color:var(--gray);font-size:18px;margin:0 0 22px}
+    .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:12px 18px;border-radius:14px;border:2px solid var(--brown);background:var(--paper);font-weight:700}
+    .btn.primary{background:var(--brown);color:#fff;border-color:var(--brown)}
+    .pill{display:inline-block;padding:6px 12px;border-radius:999px;background:var(--paper);border:1px solid rgba(62,45,27,.12);font-weight:600}
+    section{padding:42px 0}
+    .section-title{font-family:'Playfair Display',serif;font-size:28px;margin:0 0 14px}
+    .section-sub{margin:0 0 24px;color:var(--gray)}
+    .grid{display:grid;gap:16px}
+    @media(min-width:640px){.grid{grid-template-columns:repeat(2,1fr)}}
+    @media(min-width:960px){.grid{grid-template-columns:repeat(3,1fr)}}
+    .card{background:var(--paper);border-radius:18px;overflow:hidden;border:1.5px solid rgba(62,45,27,.10);box-shadow:0 6px 24px rgba(62,45,27,.08)}
+    .image{aspect-ratio:1/1;background:#fff url('https://picsum.photos/seed/baby1/600/600') center/cover no-repeat}
+    .image.i2{background-image:url('https://picsum.photos/seed/baby2/600/600')}
+    .image.i3{background-image:url('https://picsum.photos/seed/baby3/600/600')}
+    .image.i4{background-image:url('https://picsum.photos/seed/baby4/600/600')}
+    .image.i5{background-image:url('https://picsum.photos/seed/baby5/600/600')}
+    .image.i6{background-image:url('https://picsum.photos/seed/baby6/600/600')}
+    .card-body{padding:14px 14px 16px}
+    .price{font-weight:800}
+    .badge{font-size:12px;padding:4px 10px;border-radius:999px;border:1px solid rgba(62,45,27,.18);background:linear-gradient(180deg,#fff, #f6f1ea)}
+    .about{display:grid;gap:24px;align-items:center}
+    @media(min-width:900px){.about{grid-template-columns:1.1fr .9fr}}
+    .about-fig{background:var(--paper);border:1.5px dashed rgba(62,45,27,.25);border-radius:20px;min-height:280px;display:grid;place-items:center;padding:18px}
+    footer{padding:36px 0 54px;border-top:1px solid rgba(62,45,27,.12);background:linear-gradient(180deg,transparent,rgba(255,255,255,.5))}
+    .foot{display:grid;gap:12px;justify-items:center;text-align:center;color:var(--gray)}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#">
+        <div class="logo" aria-hidden="true"><img src="./logo.png" alt="La ropita de Tadeo – logo"/></div>
+        <strong>La ropita de Tadeo</strong>
+      </a>
+      <nav class="links" aria-label="Navegación">
+        <a class="btn" href="#catalogo">Catálogo</a>
+        <a class="btn" href="#como-comprar">Cómo comprar</a>
+        <a class="btn primary" href="https://wa.me/51912221940" target="_blank" rel="noopener">WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <span class="pill">Segunda mano • Primera calidad</span>
+        <h1>Pequeños tesoros para <em>grandes aventuras</em>.</h1>
+        <p>Ropa de bebé, niños y niñas importada de EE.UU., seleccionada prenda a prenda. 
+           Damos nueva vida a lo que merece otra oportunidad.</p>
+        <div class="cta">
+          <a class="btn primary" href="https://wa.me/51912221940" target="_blank" rel="noopener">Comprar por WhatsApp</a>
+          <a class="btn" href="https://instagram.com/LaRopitadeTadeo" target="_blank" rel="noopener">Ver Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="catalogo">
+      <div class="container">
+        <h2 class="section-title">Novedades del catálogo</h2>
+        <p class="section-sub">Colección de ejemplo (reemplaza con tus fotos y precios reales).</p>
+        <div class="grid">
+          <article class="card">
+            <div class="image"></div>
+            <div class="card-body">
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+                <strong>Overall rayado</strong>
+                <span class="price">S/ 45</span>
+              </div>
+              <div style="display:flex;gap:8px;margin-bottom:10px"><span class="badge">12-18 m</span><span class="badge">Importado</span></div>
+              <a href="#" class="btn primary" onclick="waBuy('Overall rayado','45');return false;">Comprar por WhatsApp</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="image i2"></div>
+            <div class="card-body">
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+                <strong>Polito algodón</strong>
+                <span class="price">S/ 25</span>
+              </div>
+              <div style="display:flex;gap:8px;margin-bottom:10px"><span class="badge">3-4 años</span><span class="badge">Como nuevo</span></div>
+              <a href="#" class="btn primary" onclick="waBuy('Polito algodón','25');return false;">Comprar por WhatsApp</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="image i3"></div>
+            <div class="card-body">
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+                <strong>Vestido flores</strong>
+                <span class="price">S/ 55</span>
+              </div>
+              <div style="display:flex;gap:8px;margin-bottom:10px"><span class="badge">2 años</span><span class="badge">Boutique</span></div>
+              <a href="#" class="btn primary" onclick="waBuy('Vestido flores','55');return false;">Comprar por WhatsApp</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="image i4"></div>
+            <div class="card-body">
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+                <strong>Chaqueta denim</strong>
+                <span class="price">S/ 60</span>
+              </div>
+              <div style="display:flex;gap:8px;margin-bottom:10px"><span class="badge">5-6 años</span><span class="badge">Unisex</span></div>
+              <a href="#" class="btn primary" onclick="waBuy('Chaqueta denim','60');return false;">Comprar por WhatsApp</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="image i5"></div>
+            <div class="card-body">
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+                <strong>Jogger comfy</strong>
+                <span class="price">S/ 30</span>
+              </div>
+              <div style="display:flex;gap:8px;margin-bottom:10px"><span class="badge">4 años</span><span class="badge">Algodón</span></div>
+              <a href="#" class="btn primary" onclick="waBuy('Jogger comfy','30');return false;">Comprar por WhatsApp</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="image i6"></div>
+            <div class="card-body">
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+                <strong>Cardigan knit</strong>
+                <span class="price">S/ 48</span>
+              </div>
+              <div style="display:flex;gap:8px;margin-bottom:10px"><span class="badge">18-24 m</span><span class="badge">Clásico</span></div>
+              <a href="#" class="btn primary" onclick="waBuy('Cardigan knit','48');return false;">Comprar por WhatsApp</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="como-comprar">
+      <div class="container about">
+        <div>
+          <h2 class="section-title">Cómo comprar</h2>
+          <p class="section-sub">Proceso simple: eliges, confirmas y recibes. Sin vueltas.</p>
+          <ol style="padding-left:18px;line-height:1.7;color:var(--gray)">
+            <li>Escríbenos por <strong>WhatsApp</strong> para reservar la prenda.</li>
+            <li>Te enviamos fotos y medidas reales. <em>Transparencia total</em>.</li>
+            <li>Pagas por Yape/Plin/transferencia. Envío a domicilio o recojo.</li>
+          </ol>
+          <div class="cta" style="justify-content:flex-start;margin-top:12px">
+            <a class="btn primary" href="https://wa.me/51912221940" target="_blank" rel="noopener">Hablar ahora</a>
+            <a class="btn" href="https://instagram.com/LaRopitadeTadeo" target="_blank" rel="noopener">Ver novedades</a>
+          </div>
+        </div>
+        <figure class="about-fig">
+          <img src="./logo.png" alt="Logo La ropita de Tadeo" style="max-width:240px;width:100%;height:auto"/>
+          <figcaption style="text-align:center;margin-top:8px;color:var(--gray)">Puedes reemplazar el archivo <code>logo.png</code> cuando tengas una versión nueva.</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container foot">
+      <div style="display:flex;gap:10px;align-items:center">
+        <div class="logo" aria-hidden="true"><img src="./logo.png" alt="La ropita de Tadeo – logo"/></div>
+        <div>
+          <strong>La ropita de Tadeo</strong><br/>
+          <small>Segunda mano, primera calidad</small>
+        </div>
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center">
+        <a class="btn" href="mailto:hola@laropitadetadeo.pe">hola@laropitadetadeo.pe</a>
+        <a class="btn" href="https://instagram.com/LaRopitadeTadeo" target="_blank" rel="noopener">Instagram</a>
+        <a class="btn" href="https://wa.me/51912221940" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+      <small>© <span id="year"></span> La ropita de Tadeo. Todos los derechos reservados.</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent=new Date().getFullYear();
+    function waBuy(name, price){
+      var base = 'https://wa.me/51912221940?text=';
+      var msg = 'Hola, me interesa *'+name+'* (S/ '+price+'). ¿Sigue disponible?';
+      window.open(base + encodeURIComponent(msg), '_blank');
+    }
+  </script>
+</body>
+</html>
